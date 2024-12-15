@@ -33,8 +33,9 @@ sat.J = [sat.Jx,sat.Jxy,sat.Jxz;...
 % Star Tracker
 
 % Initial Conditions
-prox.r = [-0.1;0;0];
-prox.rdot = [0;0;0];
+prox.r = [0;0;0];
+prox.rdot = [-0.15;0;0];
+prox.F0 = [0;0;0];
 
 
 
